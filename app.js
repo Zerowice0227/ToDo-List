@@ -1,4 +1,4 @@
-// Kerakli HTML tag lariga ulanish
+ // Kerakli HTML tag lariga ulanish
 
 const form = document.querySelector(".form");
 const input = document.querySelector(".form_input");
@@ -25,7 +25,7 @@ form.addEventListener("submit", function (e) {
         <p class="todo">${input.value}</p>
     </div>
     <button class="remove_btn">
-        <img src="./img/trash.svg" width="50" height="50" alt="trash-icon">
+        <img src="./img/trash.bin.svg" width="50" height="50" alt="trash-icon">
     </button>
     `
 
